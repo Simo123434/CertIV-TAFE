@@ -1,6 +1,6 @@
 # Lesson 1
 
-23/11/23 Monday
+23/1/23 Monday 8:00am
 
 ---
 
