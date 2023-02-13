@@ -1,9 +1,0 @@
-| Incident Date      | Affected organisation | How many victims | What was taken                                                           | Exploits Used / How to protect yourself                                                                                                                                        |
-| ------------------ | --------------------- | ---------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| January 27, 2016   | Centene Medical       | 950K             | Social Security numbers, names, addresses, DOB, health information       | The data was stored on hard drives which were unaccounted for during an inventory check. Protect by having signoffs on who last had the HDD and keep records of its location   |
-| December 26, 2015  | Nieman Marcus         | 5200             | Names, addressess, phone numbers, last 4 digits of credit card           | Bruteforce username and passwords. Protect by using different passwords for every site and make it a complex password.                                                         |
-| August 25, 2022    | LastPass              | 30M              | Password Vault, names, email addresses, billing addresses                | Accessed dev environmnet through compromised developer account. Protect by changing all passwords used in lastpass, lastpass staff should also change passwords every 3 months |
-| September 20, 2022 | Optus                 | 10M              | Drivers license, passport, address, email, phone number, medicare number | test/dev api left open to all internet. Protect by changing drivers license and staying aware for any unusual activity                                                             | 
-
-
-
