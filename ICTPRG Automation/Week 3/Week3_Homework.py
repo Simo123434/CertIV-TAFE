@@ -15,12 +15,13 @@ def getDrinkChoice():
     print('What would you like to order?')
     print('Coffee - 1')
     print('Tea - 2')
+    print('None - 3')
     choiceOfDrink = input("Enter Choice: ")
     # Check if input is a number.
     if choiceOfDrink.isnumeric():
         choiceOfDrink = int(choiceOfDrink)
     # Return invalid choice and try again.
-    while choiceOfDrink!= 1 and choiceOfDrink!= 2:
+    while choiceOfDrink!= 1 and choiceOfDrink!= 2 and choiceOfDrink!= 3:
         print('Please enter a valid option. \n')
         print('Coffee - 1')
         print('Tea - 2')
@@ -34,6 +35,9 @@ def getDrinkChoice():
     elif choiceOfDrink == 2:
         drink = 'tea'
         return drink
+    elif choiceOfDrink == 3:
+        print("Goodbye!")
+        exit()
 
 # Function to ask the user if they want milk. Uses same concept as getDrinkChoice.
 def milk(drink):
