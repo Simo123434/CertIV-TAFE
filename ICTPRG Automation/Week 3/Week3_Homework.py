@@ -35,6 +35,7 @@ def getDrinkChoice():
     elif choiceOfDrink == 2:
         drink = 'tea'
         return drink
+    # If user doesn't want a drink, exit the program.
     elif choiceOfDrink == 3:
         print("Goodbye!")
         exit()
