@@ -12,7 +12,7 @@ welcomeMesasge.pack()
 
 
 
-def radio_change(*args):
+def radio_change():
     if selectedDrink.get() == 'coffee':
         print("User selected coffee")
 
